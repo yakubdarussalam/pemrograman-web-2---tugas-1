@@ -1,4 +1,4 @@
-ini adalah prototype dari wireframe yang sudah di buat sebelumnya.
+ini adalah prototype static website html css(bootstrap) dari wireframe yang sudah di buat sebelumnya.
 
 ![image](https://github.com/yakubdarussalam/pemrograman-web-2_tugas-1/assets/74693732/3c5e8772-9b8f-4c6f-8725-a8a72ce63adf)
 ![image](https://github.com/yakubdarussalam/pemrograman-web-2_tugas-1/assets/74693732/f62462a0-ae21-4245-86d1-2f8b35c78e62)
