@@ -47,9 +47,8 @@
         <div class="container py-md-5">
             <div class="row align-items-center">
                 <div class="col-md-6 d-flex align-items-center justify-content-center">
-                    <div class="text-center mt-4">
-                        <h2>Hi, I'm a Network Engineer</h2>
-                        <p>Deskripsi tentang Anda di sini.</p>
+                    <div class="text-center mt-5">
+                        <h2>Hi, I'm a <span class="typing" style="color: rgb(0, 217, 255);"></span><br></h2>
                         <div class="mt-4">
                             <!-- Button untuk logo social media -->
                             <a href="#" class="btn btn-light me-3"><i class="fab fa-linkedin"></i> Linkedin</a>
@@ -151,9 +150,9 @@
                                 <h3 class="card-title text-white mb-1">PT. Network Data Sistem</h3>
                                 <p class="card-text text-black mb-3" style="font-size: 18px; font-style: italic;">
                                     Network Engineer</p>
-                                <p class="card-text text-center mb-2" style="font-size: 15px; font-weight: bold;">Oct
-                                    2018
-                                    - Mar 2020</p>
+                                <p class="card-text text-center mb-2" style="font-size: 15px; font-weight: bold;">Sep
+                                    2022
+                                    - Present</p>
                             </div>
                         </div>
                     </div>
@@ -274,7 +273,8 @@
     integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
     crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="typed.min.js"></script>
 <script>
     $(document).ready(function () {
         // Menangkap semua tautan navbar
@@ -300,6 +300,13 @@
         $(window).on("load", setActiveNavLink);
     });
 </script>
-
+<script>
+          var typed = new Typed('.typing',{
+            strings: ["Network Engineer", "Cyber Security and Web Development Enthusiast"],
+              loop: true,
+              typeSpeed: 50,
+              backSpeed: 50
+            });
+  </script>
 
 </html>
